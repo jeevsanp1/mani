@@ -12,24 +12,15 @@ const SoilLevel = () => {
       </div>
       <div className="<<Meter>> text-size-md text-wrap">
         <VictoryPie
-          standalone={false}
-          animate={{ duration: 1000 }}
-          width={400}
-          height={400}
-          data={}
-          innerRadius={120}
-          cornerRadius={25}
-          labels={() => null}
-          style={{
-            data: {
-              fill: ({ datum }) => {
-                const color = datum.y > 30 ? "green" : "red";
-                return datum.x === 1 ? color : "transparent";
-              },
-            },
-          }}
+          data={[
+            { x: "Zone A", y: 35 },
+            { x: "Zone B", y: 40 },
+            { x: "Zone C", y: 55 },
+          ]}
         />
       </div>
     </div>
   );
 };
+
+export default SoilLevel;
