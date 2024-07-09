@@ -6,7 +6,7 @@ import { VictoryBar, VictoryPie } from "victory";
 
 const SoilLevel = () => {
   return (
-    <div className="flex flex-col bg-slate-300 rounded-md p-3 w-1/3 h-32 text-wrap">
+    <div className="flex flex-col bg-slate-300 rounded-md p-3 w-96 h-128 drop-shadow-md text-wrap">
       <div className="<<Title>>">
         <h1 className="text-xl">Soil Level</h1>
       </div>
