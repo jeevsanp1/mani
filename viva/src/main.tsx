@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import Dashboard from "./pages/dashboard";
-import Nav from "./pages/nav";
 
 import "./index.css";
 

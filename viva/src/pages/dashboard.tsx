@@ -1,5 +1,3 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
 import "./pages.css";
 import Actionable from "../components/actionable";
 import SoilLevel from "../components/soillevel";

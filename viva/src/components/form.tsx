@@ -1,8 +1,4 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
 import ".././index.css";
-import Actionable from "../components/actionable";
-import SoilLevel from "../components/soillevel";
 
 const Form = () => {
   return (
